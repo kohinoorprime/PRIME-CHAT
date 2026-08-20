@@ -1,10 +1,10 @@
 const loginBtn = document.getElementById("loginBtn");
 const signupBtn = document.getElementById("signupBtn");
 
-loginBtn.addEventListener("click", function () {
-  alert("PRIME CHAT Login button working!");
+loginBtn.addEventListener("click", () => {
+  alert("PRIME CHAT Login working!");
 });
 
-signupBtn.addEventListener("click", function () {
-  alert("PRIME CHAT Signup button working!");
+signupBtn.addEventListener("click", () => {
+  alert("PRIME CHAT Signup working!");
 });
